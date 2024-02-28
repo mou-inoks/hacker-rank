@@ -30,6 +30,10 @@ class Result
         
         return sum;
     }
+    public static int simpleArraySumWithlinq(List<int> ar)
+    {
+        return ar.Sum();
+    }
 
 }
 
